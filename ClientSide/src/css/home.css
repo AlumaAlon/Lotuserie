@@ -1,0 +1,71 @@
+._line2 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+._line2:before,
+._line2:after {
+  content: " ";
+  flex: 1 0 0%;
+  height: 1px;
+  background: #613c41;
+  margin: 0 1rem 0 0;
+}
+._line2:after {
+  margin: 0 0 0 1rem;
+}
+
+.topDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../cookie2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeInRight 0.5s ease-in-out;
+}
+
+._topTitle {
+  padding: 6rem 0 0 0;
+  color: #613c41;
+  font-weight: 400;
+  font-size: 4rem;
+  font-family: "Berkshire Swash", cursive;
+}
+
+._coloredSubTitle {
+  font-family: "Berkshire Swash", cursive;
+  color: #ec495e;
+}
+
+._coloredSubTitle2 {
+  font-family: "Berkshire Swash", cursive;
+  color: #613c41;
+}
+
+.bakeryImg {
+  width: 100%;
+}
+
+.productImg {
+  width: 600px;
+}
+
+.cakes {
+  background-color: #eadcc2;
+}
+
+@media only screen and (max-width: 767px) {
+  .topDiv {
+    background-color: #f3d9d8;
+    height: 30rem;
+  }
+
+  ._topTitle,
+  ._coloredSubTitle {
+    padding: 2rem 0 0 0;
+    font-size: 2.2rem !important;
+  }
+}

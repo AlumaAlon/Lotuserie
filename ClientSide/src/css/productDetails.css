@@ -1,0 +1,13 @@
+._customBtn {
+  background-color: #613c41 !important;
+  color: white !important;
+}
+
+._customBtn:hover {
+  background-color: #87545a !important;
+  color: #dbdbdb;
+}
+
+.productImage_ {
+  border-radius: 15px;
+}

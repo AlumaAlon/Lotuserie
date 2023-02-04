@@ -1,0 +1,103 @@
+.navLogo {
+  transition: transform 0.3s;
+}
+
+.navLogo:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+#navBar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.nav-item {
+  color: white !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800 !important;
+}
+
+.navLinks {
+  margin: 0 0 0 8rem;
+}
+
+/* Underline Effect */
+
+.underlineEffect {
+  position: relative;
+}
+.underlineEffect:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.underlineEffect:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.bakeryLogo {
+  position: absolute;
+  top: 1px;
+  width: 100px;
+  height: 110px;
+  z-index: 99;
+
+  /* Logo Animation */
+
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.navLogo {
+  width: 7rem;
+}
+
+.cartCount,
+.hoverIcon:hover {
+  color: rgb(189, 189, 189);
+}
+
+small {
+  font-size: 0.6rem !important;
+}
+
+.dropdown {
+  padding: 0.5rem;
+}
+
+.navLink,
+.fa-user {
+  color: white;
+}
+
+.badgeSmall {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .bakeryLogo {
+    display: none;
+  }
+  .navLinks {
+    margin: 1rem 0 0 0;
+  }
+}

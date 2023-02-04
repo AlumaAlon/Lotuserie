@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #f6f6f6;
+  transition: background-color 0.2s linear;
+}
+
+@media only screen and (max-width: 767px) {
+  .cards {
+    flex-direction: column;
+  }
+  .categoryCard {
+    width: 340px;
+    height: 370px;
+  }
+
+  .leftDiv {
+    display: none;
+  }
+
+  .horizontalLine {
+    width: 15rem;
+    color: rgb(155, 155, 155);
+  }
+}

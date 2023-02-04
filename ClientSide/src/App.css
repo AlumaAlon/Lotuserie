@@ -1,0 +1,13 @@
+.sizeTable {
+  overflow-x: auto;
+}
+
+.search {
+  width: 100%;
+  filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.135));
+}
+
+a,
+.fa-xmark {
+  cursor: pointer;
+}

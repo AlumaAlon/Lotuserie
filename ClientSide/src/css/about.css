@@ -1,0 +1,9 @@
+.abtImage {
+  width: 40rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .aboutMe {
+    text-align: center;
+  }
+}
